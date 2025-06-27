@@ -25,9 +25,6 @@ Raw sales data, often in flat files like CSVs, is difficult to analyze directly.
 
 The final data model is a Star Schema, consisting of one central fact table (`fct_orders`) surrounded by three dimension tables (`dim_customers`, `dim_products`, `dim_locations`). This structure is optimized for fast analytical queries by minimizing complex joins.
 
-### ER Diagram
-
-![Star Schema ER Diagram](er_diagram.png)
 
 ## 4. How to Run the Project
 
