@@ -1,0 +1,13 @@
+# dbt/profiles.yml
+my_dbt_project:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: postgres_db
+      user: airflow
+      password: airflow
+      port: 5432
+      dbname: airflow
+      schema: staging
+      threads: 1

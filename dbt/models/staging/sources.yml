@@ -1,0 +1,8 @@
+# dbt/models/staging/sources.yml
+version: 2
+
+sources:
+  - name: staging
+    schema: staging
+    tables:
+      - name: staging_orders

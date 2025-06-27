@@ -1,0 +1,19 @@
+# Ignore Python virtual environments and cache
+__pycache__/
+*.pyc
+.env
+venv/
+
+# Ignore Airflow logs and local database
+/airflow/logs/
+/airflow/plugins/
+unittests.cfg
+airflow.db
+
+# Ignore dbt generated files
+/dbt/dbt_packages/
+/dbt/logs/
+/dbt/target/
+
+# Ignore general OS files
+.DS_Store
